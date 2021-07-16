@@ -1,0 +1,35 @@
+*{
+    font-family: optima;
+}
+body{
+    background-color: #E6E6FA;
+    color: midnightblue;
+    text-align:center;
+}
+
+.text-input{
+    border-radius: 10%;
+    size: 10rem;
+    height: 2rem;
+    width: 7.5rem;
+    font-size: large;
+}
+
+.input-label{
+    font-size: 2rem;
+}
+
+/* LOGIN */
+
+.outer-form{
+    background-color: red;
+    margin-top: 12%;
+    margin-left: 25%;
+    padding: 2px;
+    width: 50%;
+}
+
+.outer-form .form-details{
+    background-color: chartreuse;
+    padding: 2px;
+}
