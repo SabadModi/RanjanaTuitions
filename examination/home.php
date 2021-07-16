@@ -6,10 +6,10 @@ if (!isset($_SESSION['id']) == true) header("location:../index.php");
 
 ?>
 <?php include("conn.php"); ?>
-<!-- MAO NI ANG HEADER -->
+<!-- HEADER -->
 <?php include("includes/header.php"); ?>
 
-<!-- UI THEME DIRI -->
+<!-- UI THEME -->
 <?php include("includes/ui-theme.php"); ?>
 
 <div class="app-main">
