@@ -13,12 +13,12 @@ if (!isset($_SESSION['id']) == true) header("location:../index.php");
 <?php include("includes/ui-theme.php"); ?>
 
 <div class="app-main">
-  <!-- sidebar diri  -->
+  <!-- sidebar -->
   <?php include("includes/sidebar.php"); ?>
 
 
 
-  <!-- Condition If unza nga page gi click -->
+  <!-- Condition If click -->
   <?php
   @$page = $_GET['page'];
 
@@ -34,7 +34,7 @@ if (!isset($_SESSION['id']) == true) header("location:../index.php");
       include("pages/attendance.php");
     }
   }
-  // Else ang home nga page mo display
+  // Else display home page
   else {
     include("pages/home.php");
   }
@@ -43,7 +43,7 @@ if (!isset($_SESSION['id']) == true) header("location:../index.php");
   ?>
 
 
-  <!-- MAO NI IYA FOOTER -->
+  <!-- FOOTER -->
   <?php include("includes/footer.php"); ?>
 
   <?php include("includes/modals.php"); ?>
